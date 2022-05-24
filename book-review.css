@@ -5,7 +5,11 @@ html {
 
 footer {
     background-color: burlywood;
-    padding: 24px
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    align-items: center;
 }
 
 body {
@@ -13,7 +17,11 @@ body {
 }
 
 header {
-    padding: 24px
+    padding: 24px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 24px;
+
 }
 
 .main-page-book-review {
