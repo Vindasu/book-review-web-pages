@@ -28,6 +28,9 @@ header {
     background-color:white;
     border: 1px solid lightblue;
     padding: 24px;
+    display: grid;
+    grid-template-columns: auto 1fr
+
 }
 main {
     max-width: 800px;
@@ -36,6 +39,11 @@ main {
 .book-cover {
     width: 200px;
     height: auto;
+    display: grid;
+    padding: 24px;
+    grid-row-end: span 5
+
+
 }
 .book-rating {
     font-size: 125%
