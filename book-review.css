@@ -35,3 +35,29 @@ main {
 .book-authors {
     color: dimgray;
 }
+.detail-page-book-review {
+    background-color:white;
+    border: 1px solid lightblue;
+    padding: 24px;
+}
+.book-review-form {
+    background-color:white;
+    border: 1px solid lightblue;
+    padding: 24px;
+}
+button {
+    padding: 12x;
+    font-size: 110%
+}
+input {
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+textarea {
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    padding: 12px;
+    height: 180px;
+}
