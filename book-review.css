@@ -1,0 +1,37 @@
+html {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 24px
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 24px
+}
+
+.main-page-book-review {
+    background-color:white;
+    border: 1px solid lightblue;
+    padding: 24px;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+}
+.book-cover {
+    width: 200px;
+    height: auto;
+}
+.book-rating {
+    font-size: 125%
+}
+.book-authors {
+    color: dimgray;
+}
