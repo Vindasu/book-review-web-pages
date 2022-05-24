@@ -3,26 +3,38 @@
 
 <head>
     <title>Create a Book Review</title>
-    <link rel="stylesheet"href="book-review.css">
+    <link rel="stylesheet" href="book-review.css">
 </head>
 
 <body>
     <header>
         <div>My Book Reviews</div>
-        <nav> 
+        <nav>
             <a href="main.html">Back to list</a>
         </nav>
     </header>
     <main>
         <div class="book-review-form">
-        <form method="post">
-            <p>
+            <form method="post">
+                <p>
                     <label for="title">Title</label>
-            </p>
-        </form>
-    </div>
+                    <input type="text" required id="title">
+                </p>
+                <p>
+                    <label for="title">Authors</label>
+                    <input type="text" required id="authors">
+                </p>
+            </form>
+        </div>
 
     </main>
+    <footer>
+        <div>
+            Copyright 2022 by Alex Adams
+        </div>
+        <p> This is my site that contains book reviews I did not write but will
+            gladly validate blindly. </p>
+    </footer>
 </body>
 
 </html>
